@@ -1,3 +1,5 @@
+/*------------------for nav bar-----------*/
+
 #magic-line {
   position: absolute;
   bottom: 0;
@@ -8,3 +10,78 @@
   background: black;
 }
 
+
+.nav-item{
+	padding: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+	float: right;
+}
+
+#app{
+	float: right;
+}
+
+
+/*---------------------main content-----------*/
+#main_content{
+	padding: 64px;
+	padding-right: 256px;
+	padding-left: 256px;
+	text-align: center;
+}
+h3{
+	font-weight: bold;
+	text-align: center;
+}
+
+#photo_grid{
+	padding-top: 32px;
+}
+.card{
+	margin-right: 31px;
+	margin-bottom: 32px;
+	border-radius: 50px;
+}
+.card-img-top{
+	border-radius: 32px;
+}
+
+/*-----------------------section 3 .......who can join----*/
+/*-------------------------problem with line---------*/
+h2{
+	font-weight: bolder;
+}
+.jumbotron{
+	background-color: lightgray;
+	padding-left: 256px;
+	padding-right: 256px;
+}
+.line{
+	width: 812px;
+	height: 47px;
+	border-bottom: 3px solid gray;
+	position: absolute;
+}
+.page-header{
+	padding: 10px;
+	padding-top: 28px;
+}
+/*----------------------section 4........latest blog--------*/
+#section_4{
+	padding: 32px;
+	padding-left: 256px;
+	padding-right: 256px;
+}
+.col-md-4{
+	padding-top: 24px;
+}
+
+/*------------------------footer---------------*/
+#footer{
+	background-color: darkgray;
+	padding: 32px;
+}
+.container{
+	padding-left: 218px;
+}
